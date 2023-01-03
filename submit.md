@@ -42,3 +42,7 @@ ${LEADERBOARD_ROOT}/scripts/make_docker.sh
 - 点击"Get instructions“获取提交镜像的指令
 - 按照获取的指令提交镜像
 
+---
+[上一页：比赛报名](https://seekerxc.github.io/#/register)
+
+[下一页：评分规则](https://seekerxc.github.io/#/rules)

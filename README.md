@@ -24,6 +24,8 @@ Openatom Carsmos全球开源自动驾驶算法大赛对来自学术界和工业�
 - [环境部署](https://seekerxc.github.io/#/install)
 - [比赛报名](https://seekerxc.github.io/#/register)
 - [提交说明](https://seekerxc.github.io/#/submit)
+- [评分规则](https://seekerxc.github.io/#/rules)
+- [条款]()
 
 电子邮件
 QQ群

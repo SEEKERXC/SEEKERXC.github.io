@@ -12,3 +12,7 @@
 点击“New Team”创建队伍。
 如果你的队友已经创建了队伍，可以在队伍页面点击“Invite”，输入你的邮箱地址，邀请你加入队伍。
 
+---
+[上一页：环境部署](https://seekerxc.github.io/#/install)
+
+[下一页：提交说明](https://seekerxc.github.io/#/submit)
