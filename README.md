@@ -19,15 +19,15 @@ Openatom Carsmos全球开源自动驾驶算法大赛对来自学术界和工业�
 如果您对本次开源自动驾驶算法大赛有任何意见或建议，请通过以下渠道与我们联系。
 
 # 参考文档列表
-- [综述](http://localhost:3000/#/readme)
-- [比赛介绍](http://localhost:3000/#/overview)
-- [环境部署](http://localhost:3000/#/install)
-- [比赛报名](http://localhost:3000/#/register)
-- [提交说明](http://localhost:3000/#/submit)
+- [综述](https://seekerxc.github.io/#/readme)
+- [比赛介绍](https://seekerxc.github.io/#/overview)
+- [环境部署](https://seekerxc.github.io/#/install)
+- [比赛报名](https://seekerxc.github.io/#/register)
+- [提交说明](https://seekerxc.github.io/#/submit)
 
 电子邮件
 QQ群
 微信群
 
 ---
-[下一页：比赛介绍](http://localhost:3000/#/overview)
+[下一页：比赛介绍](https://seekerxc.github.io/#/overview)

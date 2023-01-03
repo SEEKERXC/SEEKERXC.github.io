@@ -1,4 +1,4 @@
-[上一页：环境部署](http://localhost:3000/#/install)
+[上一页：环境部署](https://seekerxc.github.io/#/install)
 
 ---
 

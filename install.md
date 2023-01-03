@@ -1,5 +1,5 @@
 
-[上一页：比赛介绍](http://localhost:3000/#/overview)
+[上一页：比赛介绍](https://seekerxc.github.io/#/overview)
 
 ---
 
@@ -223,4 +223,4 @@ def destroy(self):
 
 ---
 
-[下一页：比赛报名](http://localhost:3000/#/register)
+[下一页：比赛报名](https://seekerxc.github.io/#/register)

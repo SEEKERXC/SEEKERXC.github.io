@@ -1,4 +1,4 @@
-[上一页：比赛报名](http://localhost:3000/#/register)
+[上一页：比赛报名](https://seekerxc.github.io/#/register)
 
 ---
 

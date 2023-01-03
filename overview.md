@@ -1,5 +1,5 @@
 
-[上一页：综述](http://localhost:3000/#/readme)
+[上一页：综述](https://seekerxc.github.io/#/readme)
 
 ---
 
@@ -95,6 +95,6 @@ Velodyne 64线激光雷达
 如需进一步说明，请阅读“条款”部分。
 
 ---
-[上一页：综述](http://localhost:3000/#/readme)
+[上一页：综述](https://seekerxc.github.io/#/readme)
 
-[下一页：环境部署](http://localhost:3000/#/install)
+[下一页：环境部署](https://seekerxc.github.io/#/install)
