@@ -1,4 +1,4 @@
-[上一页：环境部署](https://seekerxc.github.io/#/install)
+[上一页：比赛介绍](overview.md)
 
 ---
 
@@ -13,6 +13,6 @@
 如果你的队友已经创建了队伍，可以在队伍页面点击“Invite”，输入你的邮箱地址，邀请你加入队伍。
 
 ---
-[上一页：环境部署](https://seekerxc.github.io/#/install)
+[上一页：比赛介绍](overview.md)
 
-[下一页：提交说明](https://seekerxc.github.io/#/submit)
+[下一页：环境部署](install.md)

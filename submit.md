@@ -1,4 +1,4 @@
-[上一页：比赛报名](https://seekerxc.github.io/#/register)
+[上一页：环境部署](install.md)
 
 ---
 
@@ -43,6 +43,6 @@ ${LEADERBOARD_ROOT}/scripts/make_docker.sh
 - 按照获取的指令提交镜像
 
 ---
-[上一页：比赛报名](https://seekerxc.github.io/#/register)
+[上一页：环境部署](install.md)
 
-[下一页：评分规则](https://seekerxc.github.io/#/rules)
+[下一页：评分规则](rules.md)

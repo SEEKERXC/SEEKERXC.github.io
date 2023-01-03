@@ -1,4 +1,4 @@
-[上一页：提交说明](https://seekerxc.github.io/#/submit)
+[上一页：提交说明](submit.md)
 
 ---
 
@@ -60,6 +60,6 @@ Agent应该避让从后方靠近的紧急车辆。如果紧急车辆无法通过
 全局违章将单个路线的数据压缩成一个数值，并以每公里事件数的形式给出。
  
 ---
-[上一页：提交说明](https://seekerxc.github.io/#/submit)
+[上一页：提交说明](submit.md)
 
-[下一页：条款](https://seekerxc.github.io/#/clause)
+[下一页：条款](clause.md)

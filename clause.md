@@ -1,4 +1,4 @@
-[上一页：评分规则](https://seekerxc.github.io/#/rules)
+[上一页：评分规则](rules.md)
 
 ---
 
@@ -22,6 +22,6 @@
 
  
 ---
-[上一页：评分规则](https://seekerxc.github.io/#/rules)
+[上一页：评分规则](rules.md)
 
-[下一页：比赛交通场景](https://seekerxc.github.io/#/scenarios)
+[下一页：比赛交通场景](scenarios.md)

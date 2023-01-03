@@ -1,5 +1,5 @@
 
-[上一页：比赛介绍](https://seekerxc.github.io/#/overview)
+[上一页：比赛报名](register.md)
 
 ---
 
@@ -19,7 +19,7 @@ pip3 install -r PythonAPI/carla/requirements.txt
 ```
 
 
-## 安装####和Scenario_Runner
+## 安装leaderboard和Scenario_Runner
 - 下载大赛资源库 #### 分支
 ```shell
 git clone -b leaderboard-2.0 --single-branch https://github.com/carla-simulator/leaderboard.git
@@ -222,5 +222,6 @@ def destroy(self):
 ●   routes_testing.xml。##条用作验证数据的路线（##公里）。
 
 ---
+[上一页：比赛报名](register.md)
 
-[下一页：比赛报名](https://seekerxc.github.io/#/register)
+[下一页：提交说明](submit.md)

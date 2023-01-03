@@ -1,4 +1,4 @@
-[上一页：条款](https://seekerxc.github.io/#/clause)
+[上一页：条款](clause.md)
 
 ---
 
