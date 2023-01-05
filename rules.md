@@ -14,7 +14,7 @@
 
 第二个元素包含一个高级命令。可用的高级命令集如下：
 
-```python
+```bash
 RoadOption.CHANGELANELEFT：向左移动一条车道。
 RoadOption.CHANGELANERIGHT: 向右移动一条车道。
 RoadOption.LANEFOLLOW: 继续在当前车道行驶。
@@ -25,10 +25,10 @@ RoadOption.STRAIGHT: 在十字路口保持直行。
 
 可能有这样的情况：左和右的语义是模糊的。为了消除这些情况，你可以考虑下一个航点的GPS位置。
 
-!> <span style="color: red; font-weight: 1000; font-size: 150%; text-underline-position: below; text-decoration: underline;">重要提示：不允许利用Openatom Carsmos全球开源自动驾驶算法大赛提供的任何非授权信息，包括任何类型的真值。 使用了这些信息的提交将被作废，团队将被禁止参加比赛。</span>
+!> <span style="color: red; font-weight: 1000; font-size: 120%; text-underline-position: below; text-decoration: underline;">重要提示：不允许利用Openatom Carsmos全球开源自动驾驶算法大赛提供的任何非授权信息，包括任何类型的真值。 使用了这些信息的提交将被作废，团队将被禁止参加比赛。</span>
 
 
-自动驾驶车辆可以请求访问以下传感器。此外，自动驾驶车辆可以请求访问高清地图，该地图以OpenDRIVE文件的形式提供，并被解析为一个字符串。
+自动驾驶车辆可以请求访问以下传感器。此外，自动驾驶车辆可以请求访问高清地图，该地图以 OpenDRIVE 文件的形式提供，并被解析为一个字符串。
 你可以将该文件解析或转换为对你的agent有用的表示。
 
 ```python
@@ -43,7 +43,7 @@ sensor.other.speedometer
 ```bash
 GPS传感器返回地理位置数据
 6轴惯性测量单元
-Velodyne 64线激光雷达
+Velodyne 64 线激光雷达
 远程雷达（高达100米）
 捕捉图像的普通相机
 伪传感器，提供线速度的近似值
