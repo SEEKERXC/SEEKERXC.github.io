@@ -18,7 +18,11 @@ vim ${LEADERBOARD_ROOT}/scripts/Dockerfile.master
 vim ${LEADERBOARD_ROOT}/scripts/Dockerfile.ros
 ```
 在dockerfile中，修改如下内容，以指定你的agent路径：
-
+```bash
+ENV TEAM_AGENT ${TEAM_CODE_ROOT}/YOUR_AGENT.py
+# ENV TEAM_CONFIG ${TEAM_CODE_ROOT}/YOUR_CONFIG_FILE
+ENV CHALLENGE_TRACK_CODENAME SENSORS
+```
 
 ## 4.2. 生成镜像
 在构建镜像前，确保定义了以下的环境变量：
@@ -38,8 +42,8 @@ ${LEADERBOARD_ROOT}/scripts/make_docker.sh
 ## 4.3. 提交镜像
 - 进入[比赛报名系统](http://161.189.217.21:3000/)
 - 点击"Contests"，选择“carsmos 2023 春季赛事”
-- 点击“Submissions”，创建一个新的Submission
-- 点击"Get instructions“获取提交镜像的指令
+- 点击"Submissions"，创建一个新的Submission
+- 点击"Get instructions"获取提交镜像的指令
 - 按照获取的指令提交镜像
 
 ---
