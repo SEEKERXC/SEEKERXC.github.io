@@ -38,12 +38,12 @@ RoadOption.STRAIGHT: 在十字路口保持直行。
 - [sensor.other.radar](https://carla.readthedocs.io/en/latest/ref_sensors/#radar-sensor):远程雷达（可达100米）, 0-2 个
 - [sensor.camera.rgb](https://carla.readthedocs.io/en/latest/ref_sensors/#rgb-camera): 捕捉图像的普通相机, 0-4 个
 - sensor.other.speedometer： 伪传感器，提供线速度的近似值, 0-1 个
-- sensor.opendrive_map： 伪传感器，以[OpenDRIVE](https://www.asam.net/standards/detail/opendrive/)格式解析为字符串，公开的[高清地图地图](https://www.geospatialworld.net/article/hd-maps-autonomous-vehicles/)
+- sensor.opendrive_map： 伪传感器，以[OpenDRIVE](https://www.asam.net/standards/detail/opendrive/)格式解析为字符串，公开的[高清地图](https://www.geospatialworld.net/article/hd-maps-autonomous-vehicles/)
 
-?> 为了平衡算力，每个传感器单元可访问的数量都是有限的。 比赛每个提交的文件都将在AWS中使用[g4dn.4xlarge](https://aws.amazon.com/cn/ec2/instance-types/g4/?nc1=h_ls)实例进行评估。
+?> 为了平衡算力，每个传感器单元可访问的数量都是有限的。 比赛每个提交的文件都将在AWS中使用 [g4dn.4xlarge](https://aws.amazon.com/cn/ec2/instance-types/g4/?nc1=h_ls) 实例进行评估。
 参赛队伍在给定的（120小时时长）时间内获得有限的提交机会（目前是5次）。
 
-!> 严禁滥用或攻击Openatom Carsmos全球开源自动驾驶算法大赛的基础设施，包括用于运行该服务的所有软件和硬件。偏离Openatom Carsmos全球开源自动驾驶算法大赛精神的行为可能导致团队被禁止参赛。
+!> 严禁恶意使用或攻击Openatom Carsmos全球开源自动驾驶算法大赛的基础设施，包括用于运行该服务的所有软件和硬件。这些行为可能导致团队被禁止参赛。
 
 ## 3.2. 评分规则
 自动驾驶车辆的驾驶能力可以用多个指标来描述。在这次的Openatom Carsmos全球开源自动驾驶算法大赛中，我们选择了一套有助于了解驾驶能力的不同方面的指标。虽然所有路线都有相同类型的指标，但它们各自的数值是单独计算的。具体指标如下:
@@ -76,7 +76,7 @@ Agent应该避让从后方靠近的紧急车辆。如果紧急车辆无法通过
 除此以外，还有一种没有系数的违规行为，会影响路线完成度的计算。(Ri)
 - **`非公路驾驶`** - 如果agent在非公路上驾驶，该百分比的路线将不被用于计算路线完成度得分。
 
-此外，有些事件会中断模拟进程，阻止agent继续行驶。在这些情况下，正在模拟的路线将被关闭，直接转到下一条路线，正常触发：
+此外，有些事件会中断仿真进程，阻止 agent 继续行驶。在这些情况下，正在模拟的路线将被关闭，直接转到下一条路线，触发条件：
 - **`路线偏离`** — 如果agent偏离指定路线超过30米。
 - **`程序超时`** — 如果在180秒模拟时间内agent没有采取任何行动。
 - **`模拟超时`** — 如果在60秒内无法建立客户端-服务器通信。
