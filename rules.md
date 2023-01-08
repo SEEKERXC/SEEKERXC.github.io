@@ -30,7 +30,7 @@ RoadOption.STRAIGHT: 在十字路口保持直行。
 
 自动驾驶车辆可以请求访问以下传感器信息（`MAP`赛道）。
 > 自动驾驶车辆可以请求访问高清地图，该地图以 OpenDRIVE 文件的形式提供，并被解析为一个字符串。
-你可以将该文件解析或转换为对您的agent有用的表示。
+您可以将该文件解析或转换为对您的agent有用的表示。
 
 - [sensor.other.gnss](https://carla.readthedocs.io/en/latest/ref_sensors/#gnss-sensor): GPS传感器返回地理位置数据, 0-1 个
 - [sensor.other.imu](https://carla.readthedocs.io/en/latest/ref_sensors/#imu-sensor):6轴惯性测量单元,0-1 个
@@ -82,7 +82,7 @@ Agent应该避让从后方靠近的紧急车辆。如果紧急车辆无法通过
 - **`模拟超时`** — 如果在60秒内无法建立客户端-服务器通信。
 - **`路线超时`** — 如果路线需要很长时间才能完成。
 
-每次发生上述任何情况，都会记录一些细节，这些细节将显示为一个列表，供你在路线的单独指标上查看。下面是一个既闯红灯又偏离路线的例子：
+每次发生上述任何情况，都会记录一些细节，这些细节将显示为一个列表，供您在路线的单独指标上查看。下面是一个既闯红灯又偏离路线的例子：
 
 ```python
 "infractions": {

@@ -7,9 +7,9 @@
 ```bash
 export TEAM_CODE_ROOT=~/team_code
 ```
-将你的autonomous agent以及相关的代码放入`${TEAM_CODE_ROOT}`文件夹中。
+将您的autonomous agent以及相关的代码放入`${TEAM_CODE_ROOT}`文件夹中。
 
-> 注意：你对于CARLA、Leaderboard或Scenario Runner的任何修改在提交后将不会被应用和运行。
+> 注意：您对于CARLA、Leaderboard或Scenario Runner的任何修改在提交后将不会被应用和运行。
 
 打开用于构建镜像的文件：
 ```bash
@@ -19,7 +19,7 @@ vim ${LEADERBOARD_ROOT}/scripts/Dockerfile.master
 ```bash
 vim ${LEADERBOARD_ROOT}/scripts/Dockerfile.ros
 ```
-在dockerfile中，修改如下内容，以指定你的agent路径：
+在dockerfile中，修改如下内容，以指定您的agent路径：
 ```bash
 ENV TEAM_AGENT ${TEAM_CODE_ROOT}/YOUR_AGENT.py
 # ENV TEAM_CONFIG ${TEAM_CODE_ROOT}/YOUR_CONFIG_FILE
