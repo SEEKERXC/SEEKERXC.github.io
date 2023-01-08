@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "convert": "D:\\projects\\SEEKERXC.github.io\\node_modules/.bin/docsify-pdf-converter"
+  },
+  "dependencies": {
+    "docsify-pdf-converter": "^2.1.0-beta.0",
+    "easy-pdf-merge": "^0.2.6"
+  }
+}

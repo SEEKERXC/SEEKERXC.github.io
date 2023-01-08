@@ -19,14 +19,7 @@ Openatom Carsmos全球开源自动驾驶算法大赛通过一组预定义的路�
 
 !> <span style="color: red; font-weight: 1000; text-underline-position: below; text-decoration: underline;">TODO: 联系方式？</span>
 
-## 1.5. 参考文档<!-- {docsify-ignore} -->
-- [开发环境](install.md)
-- [比赛规则](rules.md)
-- [提交说明](submit.md)
-- [声明条款](clause.md)
-- [附录](scenarios.md)
 
 ---
 
-[下一页：开发环境](install.md)
 

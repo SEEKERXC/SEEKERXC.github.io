@@ -1,7 +1,4 @@
-[上一页：比赛介绍](README.md)
-
----
-
+# 2. 开发环境<!-- {docsify-ignore} -->
 ## 2.1. 系统安装
 ### 2.1.1 获取比赛安装包
 - 下载 [**`Carla比赛安装包`**](https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/Leaderboard/CARLA_Leaderboard_20.tar.gz)。
@@ -296,9 +293,3 @@ def destroy(self):
  
 - `routes_training.xml`。 有15条用作训练数据的路线。
 - `routes_testing.xml`。 有10条用作验证数据的路线。
-
----
-
-[上一页：比赛介绍](README.md)
-
-[下一页：比赛规则](rules.md)

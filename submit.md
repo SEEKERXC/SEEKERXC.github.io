@@ -1,7 +1,4 @@
-[上一页：比赛规则](rules.md)
-
----
-
+# 4. 提交说明<!-- {docsify-ignore} -->
 ## 4.1. 环境准备
 在`${LEADERBOARD_ROOT}`文件夹外创建一个新文件夹，命名自定义（例如team_code），定义环境变量：
 ```bash
@@ -47,8 +44,3 @@ ${LEADERBOARD_ROOT}/scripts/make_docker.sh
 - 点击"Submissions"，创建一个新的Submission
 - 点击"Get instructions"获取提交镜像的指令
 - 按照获取的指令提交镜像
-
----
-[上一页：比赛规则](rules.md)
-
-[下一页：声明条款](clause.md)
