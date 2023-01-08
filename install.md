@@ -1,7 +1,4 @@
-[上一页：比赛介绍](README.md)
-
----
-
+# 2. 开发环境<!-- {docsify-ignore} -->
 ## 2.1. 系统安装
 ### 2.1.1 获取比赛安装包
 - 下载 [**`Carla比赛安装包`**](https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/Leaderboard/CARLA_Leaderboard_20.tar.gz)。
@@ -140,7 +137,7 @@ export CHALLENGE_TRACK_CODENAME=MAP
 - `TEAM_AGENT` (Python 模块) — 您的算法执行的 python 代码入口，是一个路径参数，评估系统会通过此参数调用您的算法。
  
 其他相关参数的描述如下：
-- `TEAM_CONFIG`（由用户定义）— 您的Agent的配置文件路径。 你需要在 agent 类中解析这个文件。
+- `TEAM_CONFIG`（由用户定义）— 您的Agent的配置文件路径。 您需要在 agent 类中解析这个文件。
 - `DEBUG_CHALLENGE (int)` — 表示在模拟过程中是否应该显示调试信息的标志。 默认情况下，这个变量是未设置的（0），不会显示任何调试信息。当它被设置为 1 时，模拟器将显示要遵循的参考路线。 如果这个变量被设置为大于1，系统将打印出模拟的完整状态，用于调试。
 - `CHECKPOINT_ENDPOINT (JSON)` — 将记录比赛指标的文件名。
 - `RECORD_PATH (string)` — 存储CARLA日志的文件夹的路径。默认情况下未设置。
@@ -150,7 +147,7 @@ export CHALLENGE_TRACK_CODENAME=MAP
 
 !> 目前对于`SENSORS`赛道仅可以本地实验，但是线上评估只支持 `MAP`赛道.
 
-这些环境变量被传递给`${LEADERBOARD_ROOT}/leaderboard/leaderboard_evaluator.py`，它作为执行算法的入口。可以参考`leaderboard_evaluator.py`，了解更多关于你的 agent 将如何被执行和评估的细节。
+这些环境变量被传递给`${LEADERBOARD_ROOT}/leaderboard/leaderboard_evaluator.py`，它作为执行算法的入口。可以参考`leaderboard_evaluator.py`，了解更多关于您的 agent 将如何被执行和评估的细节。
  
 !> <span style="color: red; font-weight: 1000; text-underline-position: below; text-decoration: underline;">TODO: 待确定LEADERBOARD代码仓库地址之后，添加相关文件链接。</span>
 
@@ -158,7 +155,7 @@ export CHALLENGE_TRACK_CODENAME=MAP
 定义一个新的 agent，首先要创建一个新的类，该类继承于`leaderboard.autoagents.autonomous_agent.AutonomousAgent`. 对于基于 ROS 的 agents，您应当继承自 `leaderboard.autoagents.ros1_agent.ROS1agent` 或 `leaderboard.autoagents.ros2_agent.ROS2agent`.
 
 ### 2.3.1 创建 get_entry_point
-首先，定义一个名为 get_entry_point 的函数，返回你的新类的名称。这将被用来自动实例化您的 agent。
+首先，定义一个名为 get_entry_point 的函数，返回您的新类的名称。这将被用来自动实例化您的 agent。
 ```python
 from leaderboard.autoagents.autonomous_agent import AutonomousAgent
 
@@ -285,7 +282,7 @@ ROS 和 Leaderboard之间通过同步方式集成，默认情况下，Leaderboar
 此外，基于 ROS 的 agents 必须在堆栈初始化完成后与 Leadeboard 通信。此通信应通过在以下 topic`/carla/hero/status` [`std_msgs/Bool`](http://docs.ros.org/en/noetic/api/std_msgs/html/msg/Bool.html)中发布来完成。
 
 ### 2.3.5 覆盖destroy方法
-在每条路线结束时，destroy 方法将被调用，在你需要清理的情况下，你的 agent 可以重写这个方法。例如，你可以利用这个函数来清除网络中任何不需要的储存。
+在每条路线结束时，destroy 方法将被调用，在您需要清理的情况下，您的 agent 可以重写这个方法。例如，您可以利用这个函数来清除网络中任何不需要的储存。
 ```python
 def destroy(self):
     pass
@@ -296,9 +293,3 @@ def destroy(self):
  
 - `routes_training.xml`。 有15条用作训练数据的路线。
 - `routes_testing.xml`。 有10条用作验证数据的路线。
-
----
-
-[上一页：比赛介绍](README.md)
-
-[下一页：比赛规则](rules.md)
