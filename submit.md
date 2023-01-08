@@ -3,9 +3,11 @@
 ---
 
 ## 4.1. 环境准备
-在${LEADERBOARD_ROOT}文件夹外创建一个新文件夹，命名自定义（例如team_code），定义环境变量：
-export TEAM_CODE_ROOT=.../team_code
-将你的autonomous agent以及相关的代码放入${TEAM_CODE_ROOT}文件夹中。
+在`${LEADERBOARD_ROOT}`文件夹外创建一个新文件夹，命名自定义（例如team_code），定义环境变量：
+```bash
+export TEAM_CODE_ROOT=~/team_code
+```
+将你的autonomous agent以及相关的代码放入`${TEAM_CODE_ROOT}`文件夹中。
 
 > 注意：你对于CARLA、Leaderboard或Scenario Runner的任何修改在提交后将不会被应用和运行。
 
@@ -37,7 +39,7 @@ export CARLA_ROS_BRIDGE_ROOT=... # Optional: Only for ROS based agents
 ```bash
 ${LEADERBOARD_ROOT}/scripts/make_docker.sh
 ```
-构建的镜像命名为leaderboard-user，可以在docker镜像中找到，可以通过在电脑本地运行leaderboard来测试docker镜像。
+构建的镜像命名为leaderboard-user，可以在docker镜像中找到，可以通过在本地环境运行leaderboard来测试docker镜像。
 
 ## 4.3. 提交镜像
 - 进入[比赛报名系统](http://161.189.217.21:3000/)
